@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddit-desafio</title>
+</head>
+<body>
+    <h1>Hello World
+        <div>
+    <form action="/firstData" method="post">
+        <input type="submit" value="First UPDATE" >
+    </form>
+</div></h1>
+    <form action="/search" method="post">
+        <label for="team_name">FIRST SEARCH : </label>
+        
+        <input type="date"  name="initialDate">
+        <input type="date"  name="finalDate">
+        <select class="order" name="order">
+            <option name="comment" value="comments_number">COMMENTS</option>
+            <option name="up" value="up_number">UPS</option>
+            
+          </select> 
+          
+          <input type="submit" value="First query" >
+    </form>
+    
+    <div>
+    <form action="/search2" method="post">
+        <label for="team_name">SECOND SEARCH : </label>
+        
+        <select class="order" name="order">
+            <option name="comment" value="comments_number">COMMENTS</option>
+            <option name="up" value="up_number">UPS</option>
+            
+          </select> 
+          
+          <input type="submit" value="Second query" >
+    </form>
+
+    
+</div>
+
+
+</body>
+</html>
